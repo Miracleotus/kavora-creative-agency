@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function DeliveryPolicyPage() {
+export default function TermsPage() {
   return (
     <main className="bg-brand-dark text-white min-h-screen pt-32 pb-24 px-6 font-body">
       <motion.div 
@@ -12,29 +12,35 @@ export default function DeliveryPolicyPage() {
         className="max-w-3xl mx-auto"
       >
         <h1 className="font-display text-4xl md:text-5xl font-bold mb-6 leading-tight">
-          Digital Delivery Policy
+          Terms and Conditions
         </h1>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
-          Kavora Creative Agency provides digital services and products. We do not ship physical items.
+          Welcome to Kavora Creative Agency. These terms and conditions outline the rules and regulations for the use of our website and services.
         </p>
         
         <div className="space-y-8">
           <div>
-            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">1. Delivery of Services</h2>
+            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">1. Introduction</h2>
             <p className="text-brand-gray leading-relaxed">
-              Custom design files, website access, and marketing reports will be delivered digitally via email, shared cloud drives (Google Drive/Dropbox), or our client portal.
+              By accessing this website, we assume you accept these terms and conditions. Do not continue to use Kavora Creative Agency if you do not agree to take all of the terms and conditions stated on this page.
             </p>
           </div>
           <div>
-            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">2. Digital Downloads</h2>
+            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">2. Intellectual Property Rights</h2>
             <p className="text-brand-gray leading-relaxed">
-              For instant-purchase digital products (e.g., templates), a secure download link will be provided immediately upon successful payment and sent to your registered email address.
+              Other than the content you own, under these terms, Kavora Creative Agency and/or its licensors own all the intellectual property rights and materials contained in this website. You are granted limited license only for purposes of viewing the material contained on this website.
             </p>
           </div>
           <div>
-            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">3. Project Timelines</h2>
+            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">3. Restrictions</h2>
             <p className="text-brand-gray leading-relaxed">
-              Delivery timelines for custom services are highly variable and will be clearly outlined in your individual project contract and onboarding documentation.
+              You are specifically restricted from publishing any website material in any other media; selling, sublicensing, and/or otherwise commercializing any website material; publicly performing and/or showing any website material without prior consent.
+            </p>
+          </div>
+          <div>
+            <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">4. Limitation of Liability</h2>
+            <p className="text-brand-gray leading-relaxed">
+              In no event shall Kavora Creative Agency, nor any of its officers, directors and employees, be held liable for anything arising out of or in any way connected with your use of this website whether such liability is under contract.
             </p>
           </div>
         </div>

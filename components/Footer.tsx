@@ -10,6 +10,7 @@ export default function Footer() {
         <div className="space-x-6 mt-4 md:mt-0 flex items-center">
           <Link href="/privacy" className="text-sm text-brand-gray hover:text-brand-teal transition-colors">Privacy</Link>
           <Link href="/terms" className="text-sm text-brand-gray hover:text-brand-teal transition-colors">Terms</Link>
+          <Link href="/shipping" className="text-sm text-brand-gray hover:text-brand-teal transition-colors">Shipping</Link>
           <Link href="/refund" className="text-sm text-brand-gray hover:text-brand-teal transition-colors">Refund Policy</Link>
           <Link href="/contact" className="text-sm text-brand-gray hover:text-brand-teal transition-colors">Contact</Link>
         </div>
