@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X, ShoppingCart } from "lucide-react";
@@ -23,18 +22,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* LOGO */}
-        <Link href="/" className="flex items-center gap-2">
-          <Image
-            src="/logo.png"
-            alt="Kavora Logo"
-            width={32}
-            height={32}
-            className="w-8 h-8 object-contain invert"
-            priority
-          />
-          <span className="font-display text-xl font-bold tracking-tight">
-            KAVORA
-          </span>
+        <Link href="/" className="flex items-center gap-3">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-9 h-9 shrink-0">
+            <rect width="32" height="32" rx="6" fill="#0F172A"/>
+            <path d="M4 24 L4 28 L28 28 L28 24 L22 13 L16 19 L10 13 Z" fill="#2DD4BF"/>
+            <circle cx="10" cy="11" r="3" fill="#2DD4BF"/>
+            <circle cx="16" cy="7" r="3" fill="#2DD4BF"/>
+            <circle cx="22" cy="11" r="3" fill="#2DD4BF"/>
+          </svg>
+          <div className="flex flex-col leading-none">
+            <span className="font-display text-lg font-black tracking-tight text-white">ATV KING</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}

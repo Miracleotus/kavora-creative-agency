@@ -15,10 +15,10 @@ export default function PrivacyPolicyPage() {
           Privacy Policy
         </h1>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
-          Effective Date: [Insert Date]
+          Effective Date: May 7, 2026
         </p>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
-          At Kavora Creative Agency, we take your privacy seriously. This policy outlines how we collect, use, and protect your personal information.
+          At Atv King, we take your privacy seriously. This policy outlines how we collect, use, and protect your personal information.
         </p>
         
         <div className="space-y-8">

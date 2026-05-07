@@ -16,7 +16,7 @@ export default function AboutPage() {
           The Agency Built for Challengers
         </h1>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
-          Kavora Creative Agency was founded by a team of digital natives who were tired of the traditional, bloated agency model. We saw too many businesses paying premium retainers for mediocre, template-driven results. We decided to build an agency that acts as a true extension of your team—agile, hungry, and deeply invested in your success.
+          Atv King was founded by a team of digital natives who were tired of the traditional, bloated agency model. We saw too many businesses paying premium retainers for mediocre, template-driven results. We decided to build an agency that acts as a true extension of your team—agile, hungry, and deeply invested in your success.
         </p>
         
         <h2 className="font-display text-3xl font-bold mt-12 mb-6 text-brand-teal">Our Mission</h2>

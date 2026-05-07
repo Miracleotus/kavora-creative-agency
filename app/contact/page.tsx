@@ -19,6 +19,39 @@ export default function ContactPage() {
           Ready to dominate your market? Have a vision for your brand? Reach out — we're ready to listen, strategize, and execute.
         </p>
 
+        {/* Contact Details */}
+        <div className="mb-10 grid sm:grid-cols-2 gap-5">
+          <div className="bg-white/5 border border-white/10 rounded-xl p-5 flex gap-4 items-start">
+            <span className="text-brand-teal text-xl mt-0.5">✉</span>
+            <div>
+              <p className="text-xs text-brand-gray uppercase tracking-widest mb-1">Email</p>
+              <a href="mailto:ops@atvking.com" className="text-white hover:text-brand-teal transition-colors font-medium">ops@atvking.com</a>
+            </div>
+          </div>
+          <div className="bg-white/5 border border-white/10 rounded-xl p-5 flex gap-4 items-start">
+            <span className="text-brand-teal text-xl mt-0.5">📞</span>
+            <div>
+              <p className="text-xs text-brand-gray uppercase tracking-widest mb-1">Phone</p>
+              <a href="tel:+2348142884309" className="text-white hover:text-brand-teal transition-colors font-medium">08142884309</a>
+            </div>
+          </div>
+          <div className="bg-white/5 border border-white/10 rounded-xl p-5 flex gap-4 items-start sm:col-span-2">
+            <span className="text-brand-teal text-xl mt-0.5">📍</span>
+            <div>
+              <p className="text-xs text-brand-gray uppercase tracking-widest mb-1">Address</p>
+              <p className="text-white font-medium">11, Oyenaiya Street, Bariga,</p>
+              <p className="text-white font-medium">Lagos State, Nigeria</p>
+            </div>
+          </div>
+          <div className="bg-white/5 border border-white/10 rounded-xl p-5 flex gap-4 items-start sm:col-span-2">
+            <span className="text-brand-teal text-xl mt-0.5">🕐</span>
+            <div>
+              <p className="text-xs text-brand-gray uppercase tracking-widest mb-1">Business Hours</p>
+              <p className="text-white font-medium">Monday – Friday, 9:00 AM – 6:00 PM (WAT)</p>
+            </div>
+          </div>
+        </div>
+
         <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
           <input
             type="text"
@@ -56,11 +89,6 @@ export default function ContactPage() {
           </button>
         </form>
 
-        <div className="mt-12 space-y-3 text-brand-gray text-sm">
-          <p>✉ hello@kavoracreative.com</p>
-          <p>📞 (555) 123-4567</p>
-          <p>🕐 Monday – Friday, 9:00 AM – 6:00 PM EST</p>
-        </div>
       </motion.div>
     </main>
   );

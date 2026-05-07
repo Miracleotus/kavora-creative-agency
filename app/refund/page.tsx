@@ -15,6 +15,9 @@ export default function RefundPolicyPage() {
           Refund and Cancellation Policy
         </h1>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
+          Effective Date: May 7, 2026
+        </p>
+        <p className="text-brand-gray text-lg leading-relaxed mb-8">
           Due to the custom, time-intensive nature of creative design and marketing strategy, our refund policy reflects project milestones.
         </p>
         

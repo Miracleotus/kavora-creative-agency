@@ -17,8 +17,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Kavora Creative Agency | Bold Design & Data-Driven Marketing",
-  description: "Full-service digital agency combining bold design with data-driven marketing to scale your business.",
+  title: "Atv King | Bold Design & Data-Driven Marketing",
+  description: "Atv King — full-service digital partner combining bold design with data-driven marketing to scale your business.",
 };
 
 export default function RootLayout({

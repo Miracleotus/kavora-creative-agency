@@ -15,20 +15,23 @@ export default function TermsPage() {
           Terms and Conditions
         </h1>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
-          Welcome to Kavora Creative Agency. These terms and conditions outline the rules and regulations for the use of our website and services.
+          Effective Date: May 7, 2026
+        </p>
+        <p className="text-brand-gray text-lg leading-relaxed mb-8">
+          Welcome to Atv King. These terms and conditions outline the rules and regulations for the use of our website and services.
         </p>
         
         <div className="space-y-8">
           <div>
             <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">1. Introduction</h2>
             <p className="text-brand-gray leading-relaxed">
-              By accessing this website, we assume you accept these terms and conditions. Do not continue to use Kavora Creative Agency if you do not agree to take all of the terms and conditions stated on this page.
+              By accessing this website, we assume you accept these terms and conditions. Do not continue to use Atv King if you do not agree to take all of the terms and conditions stated on this page.
             </p>
           </div>
           <div>
             <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">2. Intellectual Property Rights</h2>
             <p className="text-brand-gray leading-relaxed">
-              Other than the content you own, under these terms, Kavora Creative Agency and/or its licensors own all the intellectual property rights and materials contained in this website. You are granted limited license only for purposes of viewing the material contained on this website.
+              Other than the content you own, under these terms, Atv King and/or its licensors own all the intellectual property rights and materials contained in this website. You are granted limited license only for purposes of viewing the material contained on this website.
             </p>
           </div>
           <div>
@@ -40,7 +43,7 @@ export default function TermsPage() {
           <div>
             <h2 className="font-display text-2xl font-bold mb-3 text-brand-teal">4. Limitation of Liability</h2>
             <p className="text-brand-gray leading-relaxed">
-              In no event shall Kavora Creative Agency, nor any of its officers, directors and employees, be held liable for anything arising out of or in any way connected with your use of this website whether such liability is under contract.
+              In no event shall Atv King, nor any of its officers, directors and employees, be held liable for anything arising out of or in any way connected with your use of this website whether such liability is under contract.
             </p>
           </div>
         </div>

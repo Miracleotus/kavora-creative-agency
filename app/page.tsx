@@ -81,7 +81,7 @@ export default function HomePage() {
           className="relative z-10 flex flex-col items-center"
         >
           <p className="text-brand-teal tracking-[0.3em] uppercase text-xs mb-6 font-body">
-            Kavora Creative Agency
+            Atv King
           </p>
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-tight mb-6 max-w-4xl">
             We Build Brands That<br />
@@ -120,7 +120,7 @@ export default function HomePage() {
           <span className="text-brand-teal">Conversion</span>
         </h2>
         <p className="text-brand-gray text-lg leading-relaxed">
-          In today's digital landscape, a pretty design isn't enough, and data without a soul won't connect. At Kavora, we bridge the gap. We are a collective of designers, strategists, and storytellers dedicated to crafting digital experiences that not only look spectacular but actively drive measurable growth for your bottom line.
+          In today's digital landscape, a pretty design isn't enough, and data without a soul won't connect. At Atv King, we bridge the gap. We are a collective of designers, strategists, and storytellers dedicated to crafting digital experiences that not only look spectacular but actively drive measurable growth for your bottom line.
         </p>
       </motion.section>
 
@@ -171,7 +171,7 @@ export default function HomePage() {
           variants={fadeInUp}
           className="font-display text-4xl font-bold text-center mb-16"
         >
-          The <span className="text-brand-teal">Kavora Advantage</span>
+          The <span className="text-brand-teal">Atv King Advantage</span>
         </motion.h2>
         <motion.div 
           variants={staggerContainer}

@@ -15,7 +15,10 @@ export default function ShippingPage() {
           Digital Delivery Policy
         </h1>
         <p className="text-brand-gray text-lg leading-relaxed mb-8">
-          Kavora Creative Agency provides digital services and products. We do not ship physical items.
+          Effective Date: May 7, 2026
+        </p>
+        <p className="text-brand-gray text-lg leading-relaxed mb-8">
+          Atv King provides digital services and products. We do not ship physical items.
         </p>
         
         <div className="space-y-8">
