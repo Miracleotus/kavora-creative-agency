@@ -24,7 +24,14 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-brand-teal rounded-lg"></div>
+          <Image
+            src="/logo.png"
+            alt="Kavora Logo"
+            width={32}
+            height={32}
+            className="w-8 h-8 object-contain invert"
+            priority
+          />
           <span className="font-display text-xl font-bold tracking-tight">
             KAVORA
           </span>
